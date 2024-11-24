@@ -7,9 +7,9 @@ public class ArrayDequeLearn {
         dq.offerFirst(1);
         dq.offerLast(9);
         System.out.println(dq);
-        System.out.println("top" + dq.peekFirst());
+        System.out.println("top element " + dq.peekFirst());
         dq.pollFirst();
-        System.out.println("top" + dq.peekFirst());
+        System.out.println("top element " + dq.peekFirst());
         System.out.println(dq);
     }
 }
